@@ -1,5 +1,4 @@
-**To use a while loop to iterate through an array and perform an action on each element, you can follow these steps:
-**
+**To use a while loop to iterate through an array and perform an action on each element, you can follow these steps:**
 1. Initialize a variable to keep track of the current index, starting from 0.
 2. Set the condition of the while loop to check if the current index is less than the length of the array.
 3. Inside the loop, access the element at the current index of the array and perform the desired action.
@@ -17,8 +16,7 @@ while (index < array.length) {
   index++;
 }
 ```
-**There are several scenarios where you might choose to use a while loop instead of a for loop:
-**
+**There are several scenarios where you might choose to use a while loop instead of a for loop:**
 1. When the number of iterations is not known in advance: If the number of iterations is condition dependent and cannot be determined before the loop starts, a while loop is a better choice. You can evaluate the condition before each iteration and continue or terminate the loop based on the condition.
 
 2. When you need to ensure at least one execution: Unlike a for loop, a while loop guarantees that the code block will execute at least once, even if the condition is initially false. This can be useful in scenarios where you want to perform an action before checking the condition.
@@ -28,8 +26,7 @@ while (index < array.length) {
 4. When you want to iterate indefinitely: While loops can be used to create infinite loops, where the loop continues until a specific condition is met or until it is manually terminated. This can be useful in scenarios where you want to continuously perform an action until a certain condition is satisfied.
 
 
-**Certainly! Here's an explanation of the differences between a for loop, a while loop, and a do while loop:
-**
+**Certainly! Here's an explanation of the differences between a for loop, a while loop, and a do while loop:**
 1. For Loop:
 - A for loop is a control structure that allows you to execute a block of code repeatedly for a specified number of times or until a particular condition is met.
 - It consists of three parts: initialization, condition, and update.
