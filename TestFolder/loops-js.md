@@ -51,4 +51,26 @@ for (int i = 0; i < array.length; i++) {
 - Like a while loop, a do while loop does not have an explicit initialization step within the loop header. You need to initialize the loop control variable before the loop.
 - Do while loops are used when you need to ensure at least one execution.
 
+```javascript
+let count = 1;
+
+do {
+  console.log("Count: " + count);
+  count++;
+} while (count <= 5);
+```
+
+In this example, the do while loop will execute the code block at least once, regardless of the condition. The loop starts by initializing the `count` variable to 1. The code block inside the loop prints the current value of `count` and then increments it by 1. The loop continues as long as the condition `count <= 5` is true. Once the condition becomes false (when `count` is greater than 5), the loop terminates.
+
+The output of this example will be:
+```
+Count: 1
+Count: 2
+Count: 3
+Count: 4
+Count: 5
+```
+
+As you can see, the loop executes the code block five times, printing the value of `count` from 1 to 5.
+
 In summary, the main differences between these loops are in their structure and behavior. For loops are used when you know the exact number of iterations, while loops are used when the number of iterations is condition dependent, and do while loops are used when you need to ensure at least one execution.
