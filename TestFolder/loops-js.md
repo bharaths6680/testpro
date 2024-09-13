@@ -15,6 +15,9 @@ while (index < array.length) {
   console.log(array[index]);
   index++;
 }
+for (int i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
 ```
 **There are several scenarios where you might choose to use a while loop instead of a for loop:**
 1. When the number of iterations is not known in advance: If the number of iterations is condition dependent and cannot be determined before the loop starts, a while loop is a better choice. You can evaluate the condition before each iteration and continue or terminate the loop based on the condition.
