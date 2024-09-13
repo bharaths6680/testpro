@@ -38,3 +38,41 @@ console.log(quotient); // Output: 2
 let remainder = num1 % num2; // Modulus
 console.log(remainder); // Output: 0
 ```
+
+In JavaScript, logical operators are used to combine or manipulate Boolean values. There are three logical operators: logical AND (`&&`), logical OR (`||`), and logical NOT (`!`).
+
+Here's how you can use logical operators to combine Boolean values in JavaScript:
+
+1. Logical AND (`&&`): The logical AND operator returns `true` if both operands are `true`, and `false` otherwise. It is represented by the `&&` symbol.
+
+```javascript
+let a = true;
+let b = false;
+
+console.log(a && b); // Output: false
+```
+
+In this example, the logical AND operator is used to combine the Boolean values of `a` and `b`. Since `a` is `true` and `b` is `false`, the result of `a && b` is `false`.
+
+2. Logical OR (`||`): The logical OR operator returns `true` if at least one of the operands is `true`, and `false` otherwise. It is represented by the `||` symbol.
+
+```javascript
+let x = true;
+let y = false;
+
+console.log(x || y); // Output: true
+```
+
+In this example, the logical OR operator is used to combine the Boolean values of `x` and `y`. Since `x` is `true` and `y` is `false`, the result of `x || y` is `true`.
+
+3. Logical NOT (`!`): The logical NOT operator negates the Boolean value of its operand. It returns `true` if the operand is `false`, and `false` if the operand is `true`. It is represented by the `!` symbol.
+
+```javascript
+let p = true;
+
+console.log(!p); // Output: false
+```
+
+In this example, the logical NOT operator is used to negate the Boolean value of `p`. Since `p` is `true`, the result of `!p` is `false`.
+
+These logical operators are commonly used in conditional statements and boolean expressions to make decisions based on the combination of Boolean values.
